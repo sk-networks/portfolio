@@ -1,99 +1,924 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Santhosh Kumar P | Portfolio</title>
+    <link rel="icon" type="image/png" href="images/santhosh-profile.png?v=3">
+    <title>Santhosh Kumar P | Embedded Systems & IoT Engineer</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background: #0f172a;
-            color: white;
-        }
-        header {
-            text-align: center;
-            padding: 30px;
-            background: #020617;
-        }
-        h1 {
-            margin: 10px 0;
-        }
-        a {
-            color: #38bdf8;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        section {
-            padding: 30px;
-        }
-        .card {
-            background: #1e293b;
-            padding: 20px;
-            margin: 15px 0;
-            border-radius: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
 
 <body>
 
-<header>
-    <h1>Santhosh Kumar P</h1>
-    <p>Networking | Cybersecurity | CCNA (Pursuing)</p>
-    <p>
-        <a href="mailto:santhu321005@gmail.com">Email</a> |
-        <a href="https://github.com/santhu321005-ai" target="_blank">GitHub</a> |
-        <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">LinkedIn</a>
-    </p>
-</header>
+    <!--================ NAVBAR ================-->
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        I am an ECE undergraduate passionate about networking, cybersecurity, and automation.
-        Currently pursuing CCNA and building real-world projects in network security.
-    </p>
-</section>
+    <header class="header">
 
-<section>
-    <h2>Skills</h2>
-    <div class="card">
-        Networking: IP Addressing, Subnetting, Routing, VLANs, OSPF
-    </div>
-    <div class="card">
-        Cybersecurity: ARP Spoofing Detection, Packet Analysis, IDS
-    </div>
-    <div class="card">
-        Tools: Wireshark, Packet Tracer, Git, Linux
-    </div>
-</section>
+        <nav class="navbar container">
 
-<section>
-    <h2>Projects</h2>
+            <a href="#" class="logo">
+                Santhosh<span></span>
+            </a>
 
-    <div class="card">
-        <h3>MITM Attack Detection System</h3>
-        <p>Built using Python, Scapy, and ML to detect ARP spoofing attacks.</p>
-    </div>
+            <ul class="nav-links">
 
-    <div class="card">
-        <h3>E-Commerce Website</h3>
-        <p>Full-stack web app using React, Node.js, MongoDB.</p>
-    </div>
+                <li><a href="#home">Home</a></li>
 
-    <div class="card">
-        <h3>Smart Home Automation</h3>
-        <p>IoT system using ESP8266 and Blynk for remote control.</p>
-    </div>
+                <li><a href="#about">About</a></li>
 
-</section>
+                <li><a href="#skills">Skills</a></li>
 
-<section>
-    <h2>Contact</h2>
-    <p>Email: santhu321005@gmail.com</p>
-</section>
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#experience">Experience</a></li>
+
+                <li><a href="#education">Education</a></li>
+
+                <li><a href="#highlights">Highlights</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <div class="hamburger">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!--================ HERO ================-->
+
+    <section id="home" class="hero">
+
+        <div class="overlay"></div>
+
+        <div class="container hero-container">
+
+            <div class="hero-content">
+
+                <p class="greeting">
+                    Hello, I'm 👋
+                </p>
+
+                <h1>Santhosh Kumar P</h1>
+
+                <h2 class="typing-text">
+                    <span id="typing"></span>
+                    <span class="cursor">|</span>
+                </h2>
+
+                <p class="description">
+                    Building reliable firmware & IoT embedded solutions.
+                </p>
+
+                <p class="hero-description">
+                    B.E. Electronics & Communication Engineering student with hands-on experience in Embedded C, ESP32,
+                    sensor interfacing, and IoT-based systems. Seeking an Embedded Engineer Internship to develop
+                    firmware and build reliable, scalable embedded solutions.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="mailto:santhu321005@gmail.com" class="btn primary-btn">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        Get in Touch
+
+                    </a>
+
+                    <a href="https://github.com/sk-networks" target="_blank" class="btn secondary-btn">
+
+                        <i class="fa-brands fa-github"></i>
+
+                        GitHub
+
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/santhosh-kumar-p-80b614359/" target="_blank"
+                        class="btn secondary-btn">
+
+                        <i class="fa-brands fa-linkedin"></i>
+
+                        LinkedIn
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <a href="#about" class="scroll-down">
+
+            <i class="fa-solid fa-angles-down"></i>
+
+        </a>
+
+    </section>
+
+    <!--================ ABOUT ================-->
+
+    <section id="about" class="about section reveal">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>About Me</h2>
+
+                <p>Get to know me better</p>
+
+            </div>
+
+            <div class="about-container">
+
+                <div class="about-image">
+
+                    <img src="images/santhosh-profile.png?v=3" alt="Santhosh Kumar P">
+
+                </div>
+
+                <div class="about-content">
+
+                    <p>
+                        I'm <strong>Santhosh Kumar P</strong>, a B.E. Electronics & Communication Engineering student at
+                        HKBK College of Engineering, Bangalore. With strong practical proficiency in Embedded C, ESP32,
+                        ARM Cortex-M3 (LPC1768), and low-level sensor interfacing, I engineer real-time IoT
+                        architectures and robust hardware-software integrations.
+                    </p>
+
+                    <p>
+                        Passionate about firmware engineering, peripheral driver implementation, and low-power IoT
+                        devices. Seeking an <strong>Embedded Engineer Internship</strong> where I can write clean,
+                        high-performance firmware and help build dependable embedded products.
+                    </p>
+
+                    <h4>Current Focus</h4>
+
+                    <div class="focus-list">
+
+                        <div><i class="fa-solid fa-check"></i> Embedded C & Firmware</div>
+
+                        <div><i class="fa-solid fa-check"></i> ESP32 & IoT Architecture</div>
+
+                        <div><i class="fa-solid fa-check"></i> Protocols (UART, SPI, I2C)</div>
+
+                        <div><i class="fa-solid fa-check"></i> Machine Learning & GenAI</div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="info-cards">
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-graduation-cap"></i>
+
+                    <h3>Education</h3>
+
+                    <p>B.E. ECE · CGPA 7.94</p>
+
+                </div>
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-microchip"></i>
+
+                    <h3>Specialization</h3>
+
+                    <p>Embedded C & IoT Systems</p>
+
+                </div>
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <h3>Projects</h3>
+
+                    <p>3+ Major Engineering Projects</p>
+
+                </div>
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <h3>Location</h3>
+
+                    <p>Bangalore, Karnataka</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ SKILLS ================-->
+
+    <section id="skills" class="skills section reveal">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Technical Skills</h2>
+
+                <p>Hardware, protocols, languages, and tools I work with</p>
+
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-category">
+
+                    <h3>
+                        <i class="fa-solid fa-code"></i>
+                        Languages & Core Concepts
+                    </h3>
+
+                    <div class="skill-tags">
+
+                        <span>C</span>
+                        <span>Java</span>
+                        <span>Embedded C</span>
+                        <span>Data Structures & Algorithms</span>
+                        <span>OOP</span>
+                        <span>Computer Networks</span>
+                        <span>Machine Learning</span>
+                        <span>Generative AI</span>
+
+                    </div>
+
+                </div>
+
+                <div class="skill-category">
+
+                    <h3>
+                        <i class="fa-solid fa-microchip"></i>
+                        Embedded Systems & IoT
+                    </h3>
+
+                    <div class="skill-tags">
+
+                        <span>ESP32</span>
+                        <span>ARM Cortex-M3</span>
+                        <span>LPC1768</span>
+                        <span>Microcontrollers</span>
+                        <span>IoT Systems</span>
+                        <span>Sensor Interfacing</span>
+                        <span>Actuator Control</span>
+
+                    </div>
+
+                </div>
+
+                <div class="skill-category">
+
+                    <h3>
+                        <i class="fa-solid fa-network-wired"></i>
+                        Protocols & Hardware Drivers
+                    </h3>
+
+                    <div class="skill-tags">
+
+                        <span>UART</span>
+                        <span>SPI</span>
+                        <span>I²C</span>
+                        <span>GPIO</span>
+                        <span>ADC</span>
+                        <span>PWM</span>
+                        <span>Interrupt Handling</span>
+
+                    </div>
+
+                </div>
+
+                <div class="skill-category">
+
+                    <h3>
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        Development Tools & Platforms
+                    </h3>
+
+                    <div class="skill-tags">
+
+                        <span>Arduino IDE</span>
+                        <span>KiCad</span>
+                        <span>MATLAB</span>
+                        <span>NI Multisim</span>
+                        <span>Linux</span>
+                        <span>Git</span>
+                        <span>GitHub</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ PROJECTS ================-->
+
+    <section id="projects" class="projects section reveal">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Featured Projects</h2>
+
+                <p>Practical systems in IoT, Embedded Firmware, Safety Electronics, and Machine Learning.</p>
+
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+
+                <div class="project-card">
+
+                    <img src="images/projects/solar-compost.svg" alt="IoT-Based Solar Compost System">
+
+                    <div class="project-content">
+
+                        <h3>IoT-Based Solar Compost System</h3>
+
+                        <p>
+                            Designed an IoT-driven compost monitoring and automation system using ESP32. Integrated
+                            DHT22 temperature and humidity sensing, MQ-135 gas-level monitoring, and an LCD for local
+                            status display. Implemented relay-based fan control and DC motor direction control through
+                            an L298N driver. Built a Wi-Fi web dashboard with gas alerts and optional Telegram
+                            notifications, powered by a 12V solar panel, lead-acid battery, and charge controller.
+                        </p>
+
+                        <div class="project-tech">
+
+                            <span>ESP32</span>
+                            <span>IoT</span>
+                            <span>DHT22 & MQ-135</span>
+                            <span>L298N</span>
+                            <span>Solar Power</span>
+                            <span>Web Dashboard</span>
+
+                        </div>
+
+                        <a href="https://github.com/sk-networks" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            View on GitHub
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Project 2 -->
+
+                <div class="project-card">
+
+                    <img src="images/projects/smart-helmet.svg" alt="RIDONEX — Smart Helmet System">
+
+                    <div class="project-content">
+
+                        <h3>RIDONEX — Smart Helmet System</h3>
+
+                        <p>
+                            Built a smart safety helmet for real-time rider monitoring and crash detection utilizing
+                            dual ESP32 microcontrollers and multi-sensor fusion. Developed a Spring Boot backend to
+                            receive and process telemetry data for mobile analytics. Implemented helmet-wear
+                            verification, drowsiness detection, alcohol sensing, and automatic emergency alert
+                            dispatching.
+                        </p>
+
+                        <div class="project-tech">
+
+                            <span>Dual ESP32</span>
+                            <span>Spring Boot</span>
+                            <span>Sensors</span>
+                            <span>Crash Detection</span>
+                            <span>Alcohol Sensing</span>
+                            <span>Cloud Analytics</span>
+
+                        </div>
+
+                        <a href="https://github.com/sk-networks" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            View on GitHub
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Project 3 -->
+
+                <div class="project-card">
+
+                    <img src="images/projects/crop-recommendation.svg" alt="Crop Recommendation System">
+
+                    <div class="project-content">
+
+                        <h3>Crop Recommendation System</h3>
+
+                        <p>
+                            Engineered a machine learning application predicting optimal crop yield suitability using
+                            agricultural and soil parameters. Pre-processed datasets featuring Nitrogen, Phosphorus,
+                            Potassium (NPK), temperature, humidity, pH, and rainfall. Trained a Scikit-learn Random
+                            Forest Classifier and deployed an interactive Flask web application for real-time
+                            recommendations.
+                        </p>
+
+                        <div class="project-tech">
+
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>Random Forest</span>
+                            <span>Flask</span>
+                            <span>Machine Learning</span>
+
+                        </div>
+
+                        <a href="https://github.com/sk-networks" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            View on GitHub
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ EXPERIENCE ================-->
+
+    <section id="experience" class="experience section reveal">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Experience & Training</h2>
+
+                <p>Technical training, hands-on project engineering, and professional milestones.</p>
+
+            </div>
+
+            <div class="timeline">
+
+                <!-- Item 1 -->
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-date">
+
+                        2025
+
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>Embedded AI & ML Trainee</h3>
+
+                        <h4>HKBK College of Engineering · 5-Day Value Added Course</h4>
+
+                        <p>
+                            Completed comprehensive hands-on training on Embedded AI & Machine Learning. Explored
+                            deployment of machine learning models to microcontroller environments, low-latency sensor
+                            feature extraction, and intelligent edge signal inference.
+                        </p>
+
+                        <div class="timeline-skills">
+
+                            <span>Embedded AI</span>
+
+                            <span>Edge Inference</span>
+
+                            <span>Microcontrollers</span>
+
+                            <span>Sensor Interfacing</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Item 2 -->
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-date">
+
+                        2023 – Present
+
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>Embedded & IoT Firmware Developer</h3>
+
+                        <h4>Academic & Independent Projects</h4>
+
+                        <p>
+                            Architected and deployed end-to-end embedded hardware systems utilizing ESP32 and ARM
+                            Cortex-M3 (LPC1768). Developed bare-metal and RTOS firmware drivers for UART, SPI, I2C, ADC,
+                            PWM, and motor control modules, achieving reliable autonomous operation.
+                        </p>
+
+                        <div class="timeline-skills">
+
+                            <span>Embedded C</span>
+
+                            <span>ESP32</span>
+
+                            <span>ARM Cortex-M3</span>
+
+                            <span>Protocols & Drivers</span>
+
+                            <span>IoT Gateways</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Item 3 -->
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-date">
+
+                        Seeking 2026
+
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>Seeking Embedded Engineer Internship</h3>
+
+                        <h4>Open to Opportunities</h4>
+
+                        <p>
+                            Eager to contribute to a forward-thinking engineering team in developing device drivers,
+                            firmware optimization, IoT edge sensors, and robust embedded hardware solutions.
+                        </p>
+
+                        <div class="timeline-skills">
+
+                            <span>Firmware Development</span>
+
+                            <span>Hardware Debugging</span>
+
+                            <span>Low-Level Programming</span>
+
+                            <span>Problem Solving</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ EDUCATION ================-->
+
+    <section id="education" class="education section reveal">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Education</h2>
+
+                <p>Academic qualifications and foundational coursework.</p>
+
+            </div>
+
+            <div class="education-grid">
+
+                <!-- BE -->
+
+                <div class="education-card">
+
+                    <div class="edu-icon">
+
+                        <i class="fa-solid fa-graduation-cap"></i>
+
+                    </div>
+
+                    <div class="edu-content">
+
+                        <span class="edu-year">2023 – Present</span>
+
+                        <h3>B.E. in Electronics & Communication Engineering</h3>
+
+                        <h4>HKBK College of Engineering</h4>
+
+                        <p><strong>CGPA:</strong> 7.94 (pursuing) · Bangalore, Karnataka</p>
+
+                        <div class="edu-tags">
+
+                            <span>Embedded Systems</span>
+
+                            <span>ARM Cortex-M3</span>
+
+                            <span>Microcontrollers</span>
+
+                            <span>IoT</span>
+
+                            <span>Signal Processing</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- PU / Class XII -->
+
+                <div class="education-card">
+
+                    <div class="edu-icon">
+
+                        <i class="fa-solid fa-school"></i>
+
+                    </div>
+
+                    <div class="edu-content">
+
+                        <span class="edu-year">2021 – 2023</span>
+
+                        <h3>Department of Preuniversity Education (Class XII)</h3>
+
+                        <h4>NISARGA INDP PU COLLEGE, SOUTH EXTN KOLLEGAL</h4>
+
+                        <p><strong>Percentage:</strong> 85.6% · Chamarajanagar, Karnataka</p>
+
+                        <div class="edu-tags">
+
+                            <span>Physics</span>
+
+                            <span>Chemistry</span>
+
+                            <span>Mathematics</span>
+
+                            <span>Computer Science</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ HIGHLIGHTS ================-->
+
+    <section id="highlights" class="highlights section reveal">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Achievements & Certifications</h2>
+
+                <p>Technical awards, recognized certifications, and competitive milestones.</p>
+
+            </div>
+
+            <div class="highlights-grid">
+
+                <!-- Card 1 -->
+
+                <div class="highlight-card">
+
+                    <div class="highlight-number">01</div>
+
+                    <i class="fa-solid fa-trophy"></i>
+
+                    <h3>1st Place – Robotics Race</h3>
+
+                    <p>
+                        Awarded 1st Place in the Robotics Race competition at <strong>TECHNOVATE-2K26</strong>, a
+                        National Level IEEE Technical Symposium (2026).
+                    </p>
+
+                </div>
+
+                <!-- Card 2 -->
+
+                <div class="highlight-card">
+
+                    <div class="highlight-number">02</div>
+
+                    <i class="fa-solid fa-award"></i>
+
+                    <h3>NPTEL Elite — Programming in Java</h3>
+
+                    <p>
+                        Earned the prestigious NPTEL Elite Certification from <strong>IIT Kharagpur</strong> with a
+                        <strong>94% score</strong> in Programming in Java (2025).
+                    </p>
+
+                </div>
+
+                <!-- Card 3 -->
+
+                <div class="highlight-card">
+
+                    <div class="highlight-number">03</div>
+
+                    <i class="fa-solid fa-microchip"></i>
+
+                    <h3>Embedded AI & ML Certification</h3>
+
+                    <p>
+                        Successfully completed an intensive 5-day Value Added Course on <strong>Embedded AI &
+                            ML</strong> organized by HKBK College of Engineering (2025).
+                    </p>
+
+                </div>
+
+                <!-- Card 4 -->
+
+                <div class="highlight-card">
+
+                    <div class="highlight-number">04</div>
+
+                    <i class="fa-solid fa-laptop-code"></i>
+
+                    <h3>The Web Developer Bootcamp 2026</h3>
+
+                    <p>
+                        Completed 74 hours of comprehensive full-stack web and backend engineering by <strong>Colt
+                            Steele on Udemy</strong> (2026).
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ CONTACT ================-->
+
+    <section id="contact" class="contact section reveal">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Let's Connect</h2>
+
+                <p>
+                    I'm always open to discussing embedded systems, IoT firmware development, or internship
+                    opportunities.
+                </p>
+
+            </div>
+
+            <div class="contact-grid">
+
+                <a href="mailto:santhu321005@gmail.com" class="contact-card">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <h3>Email</h3>
+
+                    <p>santhu321005@gmail.com</p>
+
+                </a>
+
+                <a href="tel:+917892200278" class="contact-card">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <h3>Phone</h3>
+
+                    <p>+91 7892200278</p>
+
+                </a>
+
+                <a href="https://www.linkedin.com/in/santhosh-kumar-p-80b614359/" target="_blank" class="contact-card">
+
+                    <i class="fa-brands fa-linkedin"></i>
+
+                    <h3>LinkedIn</h3>
+
+                    <p>santhosh-kumar-p</p>
+
+                </a>
+
+                <a href="https://github.com/sk-networks" target="_blank" class="contact-card">
+
+                    <i class="fa-brands fa-github"></i>
+
+                    <h3>GitHub</h3>
+
+                    <p>github.com/sk-networks</p>
+
+                </a>
+
+                <div class="contact-card">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <h3>Location</h3>
+
+                    <p>Bangalore, Karnataka</p>
+
+                </div>
+
+            </div>
+
+            <div class="resume-btn">
+
+                <a href="mailto:santhu321005@gmail.com?subject=Embedded%20Engineer%20Opportunity%20-%20Santhosh%20Kumar%20P"
+                    class="btn primary-btn">
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                    Contact for Resume
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>
+            © 2026 Santhosh Kumar P • Built with HTML, CSS & JavaScript
+        </p>
+
+    </footer>
+
+    <button id="scrollTopBtn">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>

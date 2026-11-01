@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="600" height="350">
+  <defs>
+    <linearGradient id="bgP2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E1B4B" />
+    </linearGradient>
+    <linearGradient id="accentP2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="350" fill="url(#bgP2)" />
+
+  <!-- Background Lines -->
+  <g stroke="#312E81" stroke-width="1.2" opacity="0.4">
+    <circle cx="300" cy="175" r="80" fill="none" stroke-dasharray="4 4" />
+    <circle cx="300" cy="175" r="140" fill="none" stroke-dasharray="6 6" />
+    <circle cx="300" cy="175" r="200" fill="none" stroke-dasharray="8 8" />
+  </g>
+
+  <!-- Tag Pill -->
+  <rect x="40" y="35" width="160" height="28" rx="14" fill="#312E81" stroke="#6366F1" stroke-width="1.5" />
+  <text x="120" y="54" text-anchor="middle" fill="#C7D2FE" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Dual ESP32 &amp; Safety</text>
+
+  <!-- Helmet Graphic Left -->
+  <g transform="translate(60, 95)">
+    <rect x="0" y="0" width="130" height="120" rx="12" fill="#1E293B" stroke="#6366F1" stroke-width="2" />
+    <!-- Helmet shape / icon -->
+    <path d="M 65 30 C 40 30, 25 50, 25 70 C 25 85, 35 95, 65 95 C 95 95, 105 85, 105 70 C 105 50, 90 30, 65 30 Z" fill="#312E81" stroke="#818CF8" stroke-width="2" />
+    <path d="M 40 65 Q 65 80 90 65" stroke="#38BDF8" stroke-width="3" fill="none" />
+    <text x="65" y="145" text-anchor="middle" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="500">Smart Helmet</text>
+  </g>
+
+  <!-- Connection to Center Dual ESP32 -->
+  <path d="M 195 155 L 235 155" stroke="#818CF8" stroke-width="2.5" stroke-dasharray="6 4" />
+
+  <!-- Dual ESP32 Center Node -->
+  <g transform="translate(230, 85)">
+    <rect x="0" y="0" width="140" height="140" rx="14" fill="#0F172A" stroke="#818CF8" stroke-width="2.5" />
+    <text x="70" y="30" text-anchor="middle" fill="#A5B4FC" font-family="'Inter', sans-serif" font-size="13" font-weight="700">DUAL ESP32</text>
+    <line x1="20" y1="42" x2="120" y2="42" stroke="#334155" />
+    <text x="70" y="65" text-anchor="middle" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="11">Helmet Detection</text>
+    <text x="70" y="85" text-anchor="middle" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="11">Alcohol Sensing</text>
+    <text x="70" y="105" text-anchor="middle" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="11">Crash Detection</text>
+    <text x="70" y="123" text-anchor="middle" fill="#F43F5E" font-family="'Inter', sans-serif" font-size="10" font-weight="600">Drowsiness Alert</text>
+  </g>
+
+  <!-- Connection to Spring Boot Backend -->
+  <path d="M 375 155 L 420 155" stroke="#EC4899" stroke-width="2.5" stroke-dasharray="6 4" />
+
+  <!-- Spring Boot Backend Right -->
+  <g transform="translate(415, 95)">
+    <rect x="0" y="0" width="130" height="120" rx="12" fill="#1E293B" stroke="#EC4899" stroke-width="2" />
+    <circle cx="65" cy="40" r="18" fill="#831843" />
+    <text x="65" y="46" text-anchor="middle" fill="#F472B6" font-family="'Inter', sans-serif" font-size="14" font-weight="bold">☁</text>
+    <text x="65" y="75" text-anchor="middle" fill="#F472B6" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Spring Boot</text>
+    <text x="65" y="93" text-anchor="middle" fill="#E2E8F0" font-family="'Inter', sans-serif" font-size="10">Cloud Backend</text>
+    <text x="65" y="108" text-anchor="middle" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="10">Analytics API</text>
+    <text x="65" y="145" text-anchor="middle" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="12" font-weight="500">Live Analytics</text>
+  </g>
+
+  <!-- Bottom Bar -->
+  <rect x="40" y="275" width="520" height="45" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+  <text x="60" y="303" fill="#F8FAFC" font-family="'Inter', sans-serif" font-size="15" font-weight="600">RIDONEX — Smart Helmet System</text>
+  <text x="535" y="303" text-anchor="end" fill="#818CF8" font-family="'Inter', sans-serif" font-size="13" font-weight="600">2026</text>
+</svg>
+
